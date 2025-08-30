@@ -56,6 +56,7 @@ The script will:
 - **Historical data**: Actual solar PV generation from various sources
 - **Projections**: IEA World Energy Outlook reports (2009-2022)
 - **Policy scenarios**: Current policy ("cur") projections
+- **IEA WEO Reports**: [https://www.oecd.org/en/publications/world-energy-outlook_20725302.html](https://www.oecd.org/en/publications/world-energy-outlook_20725302.html)
 
 ## Repository Structure
 
