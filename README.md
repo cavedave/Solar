@@ -57,7 +57,7 @@ The script will:
 - **Projections**: IEA World Energy Outlook reports (2009-2022)
 - **Policy scenarios**: Current policy ("cur") projections
 - **IEA WEO Reports**: [https://www.oecd.org/en/publications/world-energy-outlook_20725302.html](https://www.oecd.org/en/publications/world-energy-outlook_20725302.html)
-- **Ember Energy Monthly Data**: [https://storage.googleapis.com/emb-prod-bkt-publicdata/public-downloads/monthly_full_release_long_format.csv](https://storage.googleapis.com/emb-prod-bkt-publicdata/public-downloads/monthly_full_release_long_format.csv) - Provides 2024 and 2025 solar generation figures
+- **Ember Energy Monthly Data**: [https://storage.googleapis.com/emb-prod-bkt-publicdata/public-downloads/monthly_full_release_long_format.csv](ember-energy) - Provides 2024 and 2025 solar generation figures. These match the 2023,2022, 2021 IEA figures which makes their use seem resonable.
 
 ## Notes
 
