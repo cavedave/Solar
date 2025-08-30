@@ -13,7 +13,7 @@ This repository contains data and analysis comparing actual solar photovoltaic (
 The `solar.csv` file contains:
 - **Actual solar generation** (TWh) from 2009-2025
 - **WEO projections** from various years (2009-2022) for 2020, 2025, 2030, 2035, and 2040
-- **Policy scenarios** including "cur" (current policy) and other policy variants
+- **Policy scenarios** including "cur" (current policy) and other policy variants. There is more ambitious policies in the data.
 
 ## Key Findings
 
@@ -46,8 +46,8 @@ The script will:
 
 - **Black line**: Actual solar generation observations
 - **Gold lines**: WEO projections from different years
-- **X-axis**: Years 2009-2035 (with abbreviated labels for most years, full "2030" and "2035")
-- **Y-axis**: Solar generation in TWh (0-6000)
+- **X-axis**: Years 2009-2035 (with abbreviated labels for most years, full "2030" and "2035"). 2040 is in the newer predictions and should be included in future. At the moment they swamp the 2024,2025 actual data
+- **Y-axis**: Solar generation in TWh (0-6000). This will increase in the future.
 - **Legend**: Positioned at top left inside the graph
 - **Attribution**: "by @iamredave" at bottom right
 
