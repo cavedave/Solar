@@ -82,7 +82,7 @@ def plot_actual_solar_with_projections():
                         plt.scatter(year, value, color='gold', s=50, alpha=0.8, edgecolors='black', linewidth=1)
 
     # Customize the plot
-    plt.title('World Solar PV Generation vs. International Energy Agency’s Annual Predictions', fontsize=16, fontweight='bold')
+    plt.title('World Solar PV Generation vs. International Energy Agency’s Annual Predictions', fontsize=18, fontweight='bold')
     plt.xlabel('Year', fontsize=12)
     plt.ylabel('Solar Generation (TWh)', fontsize=12)
     plt.grid(True, alpha=0.3)
@@ -95,9 +95,17 @@ def plot_actual_solar_with_projections():
     all_years = sorted(list(set(list(actual_data['Year']) + [2020, 2025, 2030, 2035])))  # Removed 2040 from ticks
     plt.xticks(all_years)
     
-    # Set y-axis to start at 0
-    plt.ylim(bottom=0, top=6000)
-
+    # Set y-axis limits for log scale - start at 10 TWh for better visibility
+    plt.ylim(bottom=10, top=10000)
+    
+    # Set y-axis to logarithmic scale (base 10)
+    plt.yscale('log')
+    
+    # Improve grid for log scale
+    plt.grid(True, alpha=0.3, which='major')
+    plt.minorticks_on()
+    plt.grid(True, alpha=0.1, which='minor')
+    
     # Customize x-axis labels to use abbreviated years
     x_ticks = plt.xticks()[0]
     x_labels = []
