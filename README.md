@@ -2,6 +2,14 @@
 
 This repository contains data and analysis comparing actual solar photovoltaic (PV) generation with projections from the International Energy Agency's (IEA) World Energy Outlook (WEO) reports.
 
+## Visualizations
+
+### Linear Scale Graph
+![Solar Generation Linear](graphs/solar_generation_with_projections.png)
+
+### Logarithmic Scale Graph (Better for Early Years)
+![Solar Generation Logarithmic](graphs/solar_generation_with_projectionsLog.png)
+
 ## What This Repository Contains
 
 - **`solar.csv`** - Historical solar PV generation data and WEO projections
@@ -57,7 +65,7 @@ The script will:
 - **Projections**: IEA World Energy Outlook reports (2009-2022)
 - **Policy scenarios**: Current policy ("cur") projections
 - **IEA WEO Reports**: [https://www.oecd.org/en/publications/world-energy-outlook_20725302.html](https://www.oecd.org/en/publications/world-energy-outlook_20725302.html)
-- **Ember Energy Monthly Data**: [https://storage.googleapis.com/emb-prod-bkt-publicdata/public-downloads/monthly_full_release_long_format.csv](ember-energy) - Provides 2024 and 2025 solar generation figures. These match the 2023,2022, 2021 IEA figures which makes their use seem resonable.
+- **Ember Energy Monthly Data**: [https://storage.googleapis.com/emb-prod-bkt-publicdata/public-downloads/monthly_full_release_long_format.csv](ember-energy) - Provides 2024 and 2025 solar generation figures. These match the 2023,2022, 2021 IEA figures which makes their use seem reasonable.
 
 ## Notes
 
