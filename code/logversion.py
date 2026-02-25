@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 Minimal changes to convert linear solar generation graph to logarithmic version.
-This file shows ONLY the changes needed from the original plot_actual_solar.py
+This file shows ONLY the changes needed from the original plot_actual_solar.py.
+
+NOTE: This is a reference snippet, not a runnable script (no figure context).
+The actual plotting is in plot_actual_solar.py, which reads solar_report_filled.csv
+and includes columns 2020, 2025, 2030, 2035, 2040, 2050.
 """
 
 # ORIGINAL CODE (from plot_actual_solar.py):
