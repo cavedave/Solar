@@ -42,9 +42,10 @@ def plot_actual_solar_with_projections():
     plt.plot(actual_data['Year'], actual_data['Actually got'], 
              'ko-', linewidth=2, markersize=6, label='Actual Solar Generation')
     
-    # Add annotation for the 2025 point
-    plt.annotate('2025 (projected)', xy=(2025, 2718), xytext=(2023, 2800),
-                fontsize=10, ha='center')
+    # Annotate the latest point, which is a part-year estimate
+    last = actual_data.sort_values('Year').iloc[-1]
+    plt.annotate(f"{int(last['Year'])} (estimate)", xy=(last['Year'], last['Actually got']),
+                xytext=(last['Year'] - 2, last['Actually got'] + 100), fontsize=10, ha='center')
     
     # Draw projection lines for each WEO year
     for _, row in cur_data.iterrows():
