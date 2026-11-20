@@ -8,16 +8,14 @@
 5. Save the page: `pdfseparate -f N -l N WEO/pdfs/WorldEnergyOutlook2026.pdf WEO/tmp/weo-2026-pN.pdf`
 6. Run `python code/plot_solar_styled.py`. The charts go to `graphs/solar_generation_styled*.png`.
 
-## Decide on the actuals
-- 2024 = 2073.25 TWh. This matches the IEA's own figure in WEO 2025.
-- 2025 = 2771.6 TWh, the full-year Ember figure.
-- Ember has since revised 2023 to about 1641 TWh and 2024 to about 2127 TWh.
-- Compare these with the 2025 historical value in WEO 2026, then choose IEA or Ember for recent years.
+## Actuals (decided 20 Nov 2026: use IEA figures)
+- 2024 = 2089 TWh and 2025 = 2723 TWh, both IEA's historical figures from WEO 2026 Table A.3a.
+- Ember for comparison: 2024 is about 2127 TWh and 2025 is 2771.6 TWh.
 
 ## 2026 actual is an estimate
-- `cur,2026` Actually got = 3251.0 TWh. This is the full 2025 total × (Jan–Sep 2026 / Jan–Sep 2025) = 2771.6 × 1.173.
+- `cur,2026` Actually got = 3194.1 TWh. This is IEA's 2025 total × Ember (Jan–Sep 2026 / Jan–Sep 2025) = 2723 × 1.1730.
 - The value is listed in `ESTIMATED_YEARS` in `code/plot_solar_styled.py`, so the charts draw it dashed and label it "estimate".
-- Replace it once Ember has the full year (early 2027), then remove 2026 from `ESTIMATED_YEARS`.
+- Replace it with IEA's 2026 figure (WEO 2027) or rescale once Ember has the full year, then remove 2026 from `ESTIMATED_YEARS`.
 - The Ember data has moved to: https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_monthly_global.csv
   The README link is out of date. The world solar monthly series is saved in `WEO/ember_world_solar_monthly.csv`.
 

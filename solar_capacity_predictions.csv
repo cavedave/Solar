@@ -1,0 +1,75 @@
+edition,scenario,year,gw,kind,source
+2009,Reference,2007,9,base,WEO/tmp/weo-2009-p625.pdf
+2009,Reference,2015,53,proj,WEO/tmp/weo-2009-p625.pdf
+2009,Reference,2020,102,proj,WEO/tmp/weo-2009-p625.pdf
+2009,Reference,2025,162,proj,WEO/tmp/weo-2009-p625.pdf
+2009,Reference,2030,244,proj,WEO/tmp/weo-2009-p625.pdf
+2010,Current Policies,2008,15,base,weo-2010.pdf p622
+2010,Current Policies,2020,101,proj,WEO/tmp/weo-2010-p623.pdf
+2010,Current Policies,2030,206,proj,WEO/tmp/weo-2010-p623.pdf
+2010,Current Policies,2035,242,proj,WEO/tmp/weo-2010-p623.pdf
+2011,Current Policies,2009,22,base,weo-2011.pdf p548
+2011,Current Policies,2020,161,proj,WEO/tmp/weo-2011-p549.pdf
+2011,Current Policies,2030,268,proj,WEO/tmp/weo-2011-p549.pdf
+2011,Current Policies,2035,314,proj,WEO/tmp/weo-2011-p549.pdf
+2012,Current Policies,2010,38,base,weo-2012.pdf p572
+2012,Current Policies,2020,227,proj,WEO/tmp/weo-2012-p573.pdf
+2012,Current Policies,2030,341,proj,WEO/tmp/weo-2012-p573.pdf
+2012,Current Policies,2035,384,proj,WEO/tmp/weo-2012-p573.pdf
+2013,Current Policies,2011,69,base,weo-2013.pdf p592
+2013,Current Policies,2020,290,proj,WEO/tmp/weo-2013-p593.pdf
+2013,Current Policies,2030,443,proj,WEO/tmp/weo-2013-p593.pdf
+2013,Current Policies,2035,511,proj,WEO/tmp/weo-2013-p593.pdf
+2014,Current Policies,2012,98,base,weo-2014.pdf p628
+2014,Current Policies,2020,333,proj,WEO/tmp/weo-2014-p629.pdf
+2014,Current Policies,2030,495,proj,WEO/tmp/weo-2014-p629.pdf
+2014,Current Policies,2040,636,proj,WEO/tmp/weo-2014-p629.pdf
+2015,Current Policies,2013,137,base,weo-2015.pdf p602
+2015,Current Policies,2020,361,proj,WEO/tmp/weo-2015-p603.pdf
+2015,Current Policies,2030,569,proj,WEO/tmp/weo-2015-p603.pdf
+2015,Current Policies,2040,773,proj,WEO/tmp/weo-2015-p603.pdf
+2016,Current Policies,2014,176,base,weo-2016.pdf p566
+2016,Current Policies,2020,424,proj,WEO/tmp/weo-2016-p567.pdf
+2016,Current Policies,2030,708,proj,WEO/tmp/weo-2016-p567.pdf
+2016,Current Policies,2040,991,proj,WEO/tmp/weo-2016-p567.pdf
+2017,Current Policies,2016,299,base,weo-2017.pdf p666 (2016e)
+2017,Current Policies,2025,807,proj,WEO/tmp/weo-2017-p667.pdf
+2017,Current Policies,2030,1027,proj,WEO/tmp/weo-2017-p667.pdf
+2017,Current Policies,2040,1416,proj,WEO/tmp/weo-2017-p667.pdf
+2018,Current Policies,2017,398,base,weo-2018.pdf p543 (2017e)
+2018,Current Policies,2025,1008,proj,WEO/tmp/weo-2018-p544.pdf
+2018,Current Policies,2030,1290,proj,WEO/tmp/weo-2018-p544.pdf
+2018,Current Policies,2040,1951,proj,WEO/tmp/weo-2018-p544.pdf
+2019,Current Policies,2018,495,base,weo-2019.pdf p681
+2019,Current Policies,2030,1646,proj,WEO/tmp/weo-2019-p682.pdf (read from image)
+2019,Current Policies,2040,2465,proj,WEO/tmp/weo-2019-p682.pdf (read from image)
+2020,Stated Policies,2019,603,base,WEO/tmp/weo-2020-p345.pdf
+2020,Stated Policies,2025,1319,proj,WEO/tmp/weo-2020-p345.pdf
+2020,Stated Policies,2030,2019,proj,WEO/tmp/weo-2020-p345.pdf
+2020,Stated Policies,2040,3655,proj,WEO/tmp/weo-2020-p345.pdf
+2021,Stated Policies,2020,739,base,WEO/tmp/weo-2021-p298.pdf (read from image)
+2021,Stated Policies,2030,2550,proj,WEO/tmp/weo-2021-p298.pdf (read from image)
+2021,Stated Policies,2040,4516,proj,WEO/tmp/weo-2021-p298.pdf (read from image)
+2021,Stated Policies,2050,6163,proj,WEO/tmp/weo-2021-p298.pdf (read from image)
+2022,Stated Policies,2021,892,base,WEO/tmp/weo-2022-p438.pdf
+2022,Stated Policies,2030,3020,proj,WEO/tmp/weo-2022-p438.pdf
+2022,Stated Policies,2040,5573,proj,WEO/tmp/weo-2022-p438.pdf
+2022,Stated Policies,2050,7464,proj,WEO/tmp/weo-2022-p438.pdf
+2023,Stated Policies,2022,1145,base,WEO/tmp/weo-2023-p267.pdf
+2023,Stated Policies,2030,4699,proj,WEO/tmp/weo-2023-p267.pdf
+2023,Stated Policies,2035,7174,proj,WEO/tmp/weo-2023-p267.pdf
+2023,Stated Policies,2040,9500,proj,WEO/tmp/weo-2023-p267.pdf
+2023,Stated Policies,2050,12639,proj,WEO/tmp/weo-2023-p267.pdf
+2024,Stated Policies,2023,1610,base,WEO/tmp/weo-2024-p299.pdf
+2024,Stated Policies,2030,5838,proj,WEO/tmp/weo-2024-p299.pdf
+2024,Stated Policies,2035,9203,proj,WEO/tmp/weo-2024-p299.pdf
+2024,Stated Policies,2040,12333,proj,WEO/tmp/weo-2024-p299.pdf
+2024,Stated Policies,2050,16445,proj,WEO/tmp/weo-2024-p299.pdf
+2025,Current Policies,2024,2164,base,WEO/tmp/weo-2025-p417.pdf
+2025,Current Policies,2035,8067,proj,WEO/tmp/weo-2025-p417.pdf
+2025,Current Policies,2040,10415,proj,WEO/tmp/weo-2025-p417.pdf
+2025,Current Policies,2050,13804,proj,WEO/tmp/weo-2025-p417.pdf
+2026,Current Policies,2025,2823,base,WEO/tmp/weo-2026-p456.pdf
+2026,Current Policies,2035,8159,proj,WEO/tmp/weo-2026-p456.pdf
+2026,Current Policies,2040,10687,proj,WEO/tmp/weo-2026-p456.pdf
+2026,Current Policies,2050,14458,proj,WEO/tmp/weo-2026-p456.pdf

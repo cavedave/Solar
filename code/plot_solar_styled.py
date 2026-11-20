@@ -45,7 +45,7 @@ STYLES = {
     ),
     "wide": dict(
         figsize=(15, 7.5), suffix="Wide",
-        reality_color="#111111", pred_color="#F6C21C",
+        reality_color="#16807F", pred_color="#F5C400",
         reality_lw=3.5, reality_dot=130, pred_lw=3.5, pred_dot=170,
         arrow=False,
         title="Actual solar generation keeps outstripping\n"
@@ -183,7 +183,7 @@ def draw(actual, lines, style, log=False):
 
     fig.text(0.015 if style == "wide" else 0.04, 0.012,
              "World solar PV generation vs. IEA WEO "
-             "(Current Policies) predictions, WEO 2009–2025"
+             "(Current Policies) predictions, WEO 2009–2026"
              + (" · log scale" if log else ""),
              fontsize=9, color=AXIS_TEXT, ha="left", va="bottom")
     fig.text(0.985 if style == "wide" else 0.96, 0.012, "by @iamredave",
